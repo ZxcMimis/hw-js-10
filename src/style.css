@@ -1,0 +1,57 @@
+.box1{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: solid black 0.5px;
+}
+.task-container {
+  display: flex;
+  align-items: center;
+  gap: 450px;
+  position: relative;
+}
+.instruction {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.large-box {
+  width: 450px;
+  height: 450px;
+  border: solid rgba(0, 255, 149, 0.527);
+  position: relative;
+  background-color: rgb(56, 19, 19);
+}
+.first-middle-box {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(255, 0, 0);
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  animation: linear-move 2s infinite linear;
+}
+.sec-middle-box {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(53, 12, 12);
+  position: absolute;
+  right: 190px;
+  bottom: 70px;
+}
+.small-box {
+  width: 90px;
+  height: 90px;
+  background-color: rgb(202, 143, 143);
+  position: absolute;
+  top: 110px;
+  right: 60px;
+}
+
+
