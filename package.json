@@ -2,6 +2,7 @@
   "name": "hw-js-10",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://zxcmimis.github.io/hw-js-10/",
   "scripts": {
     "start": "npx parcel src/index.html --no-cache",
     "build": "parcel build src/index.html --no-cache --public-url ./",
